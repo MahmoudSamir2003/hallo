@@ -186,7 +186,8 @@ function addToCart(){
 }
 
 window.addEventListener("load",function(){
-
+  document.getElementById("page").style.display="block";
+  document.getElementById("loader").style.display="none";
 })
 
 
