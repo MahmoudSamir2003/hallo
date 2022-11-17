@@ -24,7 +24,7 @@ align-items: center;
   width: 93px;
   height: 20px;
   margin-left: 5px;
-  animation: loader 1.5s infinite;
+  animation: loader 9s infinite;
 }
 @keyframes loader{
   50%{
