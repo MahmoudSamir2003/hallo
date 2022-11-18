@@ -186,10 +186,11 @@ function addToCart(){
 }
 
 window.addEventListener("load",function(){
-  document.getElementById("page").style.display="block";
-  document.getElementById("loader").style.display="none";
+ setTimeout(changeStyles, 4000)
 })
-
-
-
+ 
+  function changeStyles(){
+    document.getElementById("page").style.display="block";
+    document.getElementById("loader").style.display="none"
+  }
 
